@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { Room, Star } from "@material-ui/icons";
 import axios from "axios";
 import { format } from "timeago.js";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from '!mapbox-gl'
 import Register from "./components/Register"
 import Login from "./components/Login"
 
